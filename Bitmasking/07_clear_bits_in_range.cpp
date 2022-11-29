@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int clearLastIbits(int n, int i, int j){
+int clearBitsInRange(int n, int i, int j){
 	int mask = (~0)<<(j+1); 
 	
 	// This is not a good approch
@@ -20,6 +20,7 @@ int clearLastIbits(int n, int i, int j){
 	mask = (mask|mk);
 	return (n&mask);
 }
+
 int main(){
 #ifndef ONLINE_JUDGE
 	freopen("input.txt", "r", stdin);
@@ -27,6 +28,6 @@ int main(){
 #endif
 	//  101111111111  3071
 	//  101110000000
-	cout << clearLastIbits(3071, 3, 7) << endl;
+	cout << clearBitsInRange(3071, 3, 7) << endl;
 	return 0;
 }	

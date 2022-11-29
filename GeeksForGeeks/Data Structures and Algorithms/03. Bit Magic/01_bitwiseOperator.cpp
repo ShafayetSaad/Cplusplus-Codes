@@ -7,7 +7,8 @@ int main(){
 	freopen("output.txt", "w", stdout);
 #endif
 	
-	// Details is in my notebook
+	// Basic Theory is in my notebook
+	// Read that first
 
 	int x = 3;
 	int y = 6;
