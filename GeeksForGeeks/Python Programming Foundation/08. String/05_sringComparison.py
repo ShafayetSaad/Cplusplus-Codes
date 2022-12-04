@@ -9,11 +9,13 @@ print(s1 == s2)
 print(s1 != s2)
 
 
-print("#############")
+print()
 
 print("abcd > abc ","abcd">"abc")
-print("ZAB>ABC","ZAB">"ABC")
+print("ZAB > ABC","ZAB">"ABC")
 
-print("abc>ABC","abc">"ABC")
+print("abc > ABC","abc">"ABC") # lowercase has higher ASCII values
 
-print("x>abcd","x">"abcd")
+print("x > abcd","x">"abcd")
+
+print()
