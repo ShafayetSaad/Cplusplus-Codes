@@ -4,6 +4,8 @@ stack = LIFO -last in fast out
 - top element
 - push
 - pop
+- empty
+Time Complexity is big O(1)
 */
 #include <bits/stdc++.h>
 using namespace std;

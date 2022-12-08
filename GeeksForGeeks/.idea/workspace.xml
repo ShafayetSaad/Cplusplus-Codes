@@ -3,9 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
@@ -13,14 +13,116 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="286f77cd-6747-4a13-9894-09020e46cf13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Stack/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Structures and Algorithms/04. Recursion/01_recursion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures and Algorithms/04. Recursion/01_recursion.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Structures and Algorithms/04. Recursion/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures and Algorithms/04. Recursion/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dequeue/dequeue_01.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Dequeue/dequeue_01.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dequeue/dequeue_01.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Dequeue/dequeue_01.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dequeue/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dequeue/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Markdown/test.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Markdown/test.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Mutating/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Mutating/make_heap.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Mutating/make_heap.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Mutating/merge.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Mutating/merge.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Mutating/merge_two_sorted_arrays.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Mutating/merge_two_sorted_arrays.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Mutating/next_permutaion.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Mutating/next_permutaion.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Mutating/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Mutating/prev_permutation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Mutating/prev_permutation.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Mutating/reverse.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Mutating/reverse.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Mutating/sort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Mutating/sort.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Non Mutating/accumulate.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Non Mutating/accumulate.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Non Mutating/binary_search.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Non Mutating/binary_search.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Non Mutating/count.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Non Mutating/count.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Non Mutating/fill.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Non Mutating/fill.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Non Mutating/find.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Non Mutating/find.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Non Mutating/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Non Mutating/is_permutation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Non Mutating/is_permutation.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Non Mutating/lower_bound.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Non Mutating/lower_bound.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Non Mutating/max_min_element.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Non Mutating/max_min_element.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Non Mutating/median_of_row_wise_sorted_matrix.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Non Mutating/median_of_row_wise_sorted_matrix.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Non Mutating/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Non Mutating/rand.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Non Mutating/rand.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Non Mutating/rotate.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Non Mutating/rotate.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Non Mutating/test.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Non Mutating/upper_bound.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Non Mutating/upper_bound.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dequeue/dequeue_01.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dequeue/dequeue_01.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dequeue/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dequeue/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dequeue/problem_01.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dequeue/problem_01.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dequeue/problem_02.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dequeue/problem_02.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/forward_list_01.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/forward_list_01.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/forward_list_02.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/forward_list_02.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/forward_list_03.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/forward_list_03.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/list_01.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/list_01.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/list_02.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/list_02.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pairs/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pairs/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pairs/pairs_01.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pairs/pairs_01.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pairs/sort_array_according_to_another_array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pairs/sort_array_according_to_another_array.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/problem_01.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/problem_01.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/problem_02.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/problem_02.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/problem_03.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/problem_03.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/problem_04.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/problem_04.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/problem_05.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/problem_05.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/problem_06.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/stack.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/stack.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vector/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vector/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vector/vector_01.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vector/vector_01.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vector/vector_02.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vector/vector_02.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vector/vector_03.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vector/vector_03.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builtin_popcount().cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builtin_popcount().exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/find_extra_character.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/find_extra_character.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passing_fun_as_parameter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passing_fun_as_parameter.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_pointer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_pointer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack_unwinding_exception_handling.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack_unwinding_exception_handling.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template_smart_pointer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template_smart_pointer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuple.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuple.exe" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,35 +139,30 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IanJWEXZ2xxZ0uVnIoNQNH93y0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "E:/C++ codes/Cplusplus-Codes/GeeksForGeeks",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/C++ codes/Cplusplus-Codes/GeeksForGeeks&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration name="stack.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GeeksForGeeks" TARGET_NAME="stack.cpp" CONFIG_NAME="stack.cpp">
-      <option name="sourceFile" value="Stack\stack.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-  </component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -75,6 +172,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670428495615</updated>
       <workItem from="1670428495803" duration="1277000" />
+      <workItem from="1670491925533" duration="482000" />
     </task>
     <servers />
   </component>
