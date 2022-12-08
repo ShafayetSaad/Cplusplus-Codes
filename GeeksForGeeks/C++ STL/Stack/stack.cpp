@@ -1,11 +1,12 @@
 /*
 stack = LIFO -last in fast out
 - size
-- top element
+- top
 - push
 - pop
 - empty
 Time Complexity is big O(1)
+it is a container adapter.
 */
 #include <bits/stdc++.h>
 using namespace std;

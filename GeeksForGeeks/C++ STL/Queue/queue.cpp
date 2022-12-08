@@ -7,6 +7,7 @@ Queue - FIFO - first in first out
 - pop
 - empty
 Time Complexity is big O(1)
+It is also a container adapter like stack.
 */
 #include <bits/stdc++.h>
 using namespace std;
