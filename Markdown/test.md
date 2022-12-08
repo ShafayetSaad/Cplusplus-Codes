@@ -1,24 +1,28 @@
-# Hello World
-## Hello World
-### Hello World
-#### Hello World
-##### Hello World
-##### Hello World
-###### Hello World
-This is a **sentence** *hello world*.
-This is a __sentence__ _hello world_.
-This is a <b>sentence</b> hello world.
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+
+This is a **bold sentence**.
+This is a __italic sentence__.
+This is a <b>bold sentence</b>.
+
 <span style="color: green">Hello World!</span>
-This is a <br> line break.
+
+This is a<br> line break.
 My name is Shafayet Sadi.  
 [This is a link](https://www.google.com)
 [This is another link][myref]
 [Here is another link][myref]
+
 [myref]:https://www.google.com
-[comment]:<> (This is my comment)
-[//]: <> (This is also a comment)
-![myImage]()
+[comment]: <> (This is my comment)
+
+![myImage](https://images.pexels.com/photos/598917/pexels-photo-598917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
 Hello there
+
 >"Once upon a time there was a boy.
 >He was a very good boy too."
 - One

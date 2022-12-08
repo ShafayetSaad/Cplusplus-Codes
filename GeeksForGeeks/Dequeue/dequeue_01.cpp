@@ -29,6 +29,8 @@ int main(){
 
 	cout << dq.front() << " " << dq.back() << endl;
 
+	cout << endl;
+
 	auto it = dq.begin();
 	it++;
 	dq.insert(it, 7);

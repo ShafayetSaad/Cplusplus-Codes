@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="286f77cd-6747-4a13-9894-09020e46cf13" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Stack/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures and Algorithms/04. Recursion/01_recursion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures and Algorithms/04. Recursion/01_recursion.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures and Algorithms/04. Recursion/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures and Algorithms/04. Recursion/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dequeue/dequeue_01.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Dequeue/dequeue_01.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dequeue/dequeue_01.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Dequeue/dequeue_01.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dequeue/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dequeue/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markdown/test.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Markdown/test.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IanJWEXZ2xxZ0uVnIoNQNH93y0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "E:/C++ codes/Cplusplus-Codes/GeeksForGeeks",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="stack.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GeeksForGeeks" TARGET_NAME="stack.cpp" CONFIG_NAME="stack.cpp">
+      <option name="sourceFile" value="Stack\stack.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="286f77cd-6747-4a13-9894-09020e46cf13" name="Changes" comment="" />
+      <created>1670428495615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670428495615</updated>
+      <workItem from="1670428495803" duration="1277000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
