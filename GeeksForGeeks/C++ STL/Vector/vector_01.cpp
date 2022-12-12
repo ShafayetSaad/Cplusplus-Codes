@@ -13,6 +13,7 @@ int main(){
 	v.push_back(10);
 	v.push_back(20);
 	v.push_back(30);
+	cout << v.capacity() << endl;
 
 	for(int i=0; i<v.size(); i++){
 		cout << v[i] << " ";
@@ -66,5 +67,13 @@ pop_back(), push_back() --> big O(1) normally
 But in worst case --> big O(n)
 
 insert(), erase, resize() --> big O(n)
+
+How vectors work internally?
+
+Internaly uses dynamically allocated arrays only.
+If current allocated space becomes full, do following:
+1. Create a new larger space of double size
+2. Copy elements from old space to new space
+3. Free old space
 
 */

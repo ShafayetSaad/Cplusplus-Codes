@@ -20,7 +20,6 @@ int main(){
 	// the first not matching is the answer
 	// Another way is by counting occurence from first string
 	// ans subtractind from second string
-	// we should declare an array size of 256 for all the ascii charracters
 	// Now the bitwise operator way
 	// a^b == 0
 	// a^0 == a
