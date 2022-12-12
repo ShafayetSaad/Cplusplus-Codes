@@ -10,6 +10,7 @@ int main(){
 	// than equal to given value in a given sorted range
 
 	// Time Complexity
+	// it uses binary search internally
 	// for Random Access Containers big O(log(n))
 	// for others big O(n)
 	// for sets, maps use their lower_bound
@@ -23,16 +24,22 @@ int main(){
 	cout << (*it) << " ";
 	cout << (it-v.begin()) << endl;
 
-	it = lower_bound(v.begin(), v.end(), 5);
+	it = lower_bound(v.begin(), v.end(), 50);
 	cout << (*it) << " "; // garbage value
-	
-	// if(it==v.end()){
-	// 	cout << "Not found" << endl;
-	// }
 	cout << (it-v.begin()) << endl;
+	
+	if(it==v.end()){
+		cout << "Not found" << endl;
+	}
+
+	// we can use lower_bound to find a value 
+	// it helps to find the first occurence
+	// if(it != v.end() && (*it) == x){
+	// 	cout << "Found" << endl;
+	// }
 
 	// For arrays use
-	// int *ptr = lower_bount(arr, arr+n, 20);
+	// int *ptr = lower_bound(arr, arr+n, 20);
 
 	return 0;
 }	

@@ -19,8 +19,10 @@ int main(){
 	cout << accumulate(v.begin(), v.end(), initial_res) << endl;
 
 	initial_res = 100;
+	// it subtracts all element from initial result
 	cout << accumulate(v.begin(), v.end(), initial_res, minus<int>()) << endl;	
 
+	// with user defined myFun
 	cout <<accumulate(v.begin(), v.end(), 1, myFun) << endl;
 
 	return 0;

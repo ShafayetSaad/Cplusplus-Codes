@@ -7,6 +7,7 @@ int main(){
 	freopen("output.txt", "w", stdout);
 #endif
 	// Time Complexity big O(n)
+	// we can use array, string, vector, list etc
 
 	vector<int> v{10, 20, 30, 40};
 	for(auto x:v){

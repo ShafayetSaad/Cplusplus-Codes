@@ -10,6 +10,7 @@ int main(){
 	// than to given value in a given sorted range
 
 	// Time Complexity
+	// it uses binary search internally
 	// for Random Access Containers big O(log(n))
 	// for others big O(n)
 	// for sets, maps use their upper_bound
@@ -24,15 +25,21 @@ int main(){
 	cout << (it-v.begin()) << endl;
 
 	it = upper_bound(v.begin(), v.end(), 50);
-	cout << (*it) << endl; // garbage value
+	cout << (*it) << " "; // garbage value
+	cout << (it-v.begin()) << endl;
 	
 	if(it==v.end()){
 		cout << "Not found" << endl;
 	}
-	cout << (it-v.begin()) << endl;
+
+	// we can use upper_bound to find a value
+	// it helps to find the last occurence 
+	// if(it != v.end() && (*(it-1)) == x){
+	// 	cout << "Found" << endl;
+	// }
 
 	// For arrays use
-	// int *ptr = upper_bount(arr, arr+n, 20);
+	// int *ptr = upper_bound(arr, arr+n, 20);
 
 	return 0;
 }	

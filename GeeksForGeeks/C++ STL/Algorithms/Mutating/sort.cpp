@@ -23,8 +23,9 @@ int main(){
 	freopen("output.txt", "w", stdout);
 #endif
 
-	// Time Complexity: big O(nlogn)
+	// Time Complexity: big O(nlog(n))
 	// Uses IntroSort(hybrid of quicksort, heapsort and insetion sort)
+
 	int arr[] = {10, 20, 5, 7};
 
 	sort(arr, arr+4); // smaller to greater
@@ -53,8 +54,10 @@ int main(){
 
 	vector<pair<int, int>> vp = {{3, 10}, {2, 8}, {5, 4}, {4, 11}, {4, 15}};
 	
+	// Using lambda function
 	sort(vp.begin(), vp.end(), 
 		[](pair<int, int> x, pair<int, int> y){return (x.first > y.first);});
+
 
 	for(auto i : vp){
 		cout << i.first << " " << i.second << endl;

@@ -7,6 +7,7 @@ int main(){
 	freopen("output.txt", "w", stdout);
 #endif
 	// Time Complexity is big O(n)
+	// we can use arrays, list, dequeue, strings, vectors
 	vector<int> v{10, 20, 30};
 	reverse(v.begin(), v.end());
 	for(auto x : v){

@@ -2,6 +2,7 @@
 using namespace std;
 
 /*
+This is a max heap
 (index)
         10(0)
      5(1)   8(2)
@@ -9,7 +10,7 @@ using namespace std;
 
 left(i) = 2i+1
 right(i) = 2i+2
-parent(i) = (i-1)/2
+parent(i) = (i-1)//2
 
 */
 
@@ -21,19 +22,21 @@ int main(){
 #endif
 	
 	vector<int> v={15, 6, 7, 12, 30};
-	// make_heap(v.begin(), v.end());
+	// make_heap(v.begin(), v.end()); // max heap by default
 	// cout << v.front() << endl;
-	make_heap(v.begin(), v.end(), greater<int>());
+	make_heap(v.begin(), v.end(), greater<int>()); // min heap
 	for(auto x : v){
  		cout << x << " ";
  	}cout << endl;
-	cout << v.front() << endl;
 
-	// 6 is moved to last
+	cout << v.back() << endl;
+
+	// 6 is moved to the end index 4 by pop_heap
 	pop_heap(v.begin(), v.end(), greater<int>());
 	cout << v.front() << endl;
+
  	v[4] = 2;
- 	// 2 is moved to first
+ 	// 2 is moved to first by push_heap
  	push_heap(v.begin(), v.end(), greater<int>());
  	cout << v.front() << endl;
 
@@ -41,5 +44,6 @@ int main(){
  	for(auto x : v){
  		cout << x << " ";
  	}cout << endl;
+
 	return 0;
 }	

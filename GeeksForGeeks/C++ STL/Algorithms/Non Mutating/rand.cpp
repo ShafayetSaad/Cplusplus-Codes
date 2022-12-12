@@ -25,6 +25,7 @@ int main(){
 		cout << rand()%100 << " ";
 	} cout << endl;
 
+	// random numbers in a range
 	n = 10;
 	int low = 10;
 	int high = 100;
