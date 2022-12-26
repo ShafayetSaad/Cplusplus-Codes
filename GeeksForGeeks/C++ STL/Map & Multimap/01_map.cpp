@@ -31,7 +31,7 @@ int main(){
 	m.insert({1, 1});
 	m.insert({2, 4});
 	m.insert({3, 9});
-	m.insert({3, 9}); // unique element
+	m.insert({3, 9}); // unique keys and elements
 	m.insert({2, 40}); // it is ignored
 
 	printMap(m);

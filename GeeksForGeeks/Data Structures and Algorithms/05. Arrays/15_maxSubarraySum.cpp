@@ -17,6 +17,7 @@ int maxSubarraySum(int arr[], int n){
 }
 
 // Efficient solution
+// Kadane's Algorithm
 // Time Complexity is big O(n)
 int _maxSubarraySum(int arr[], int n){
 	int maxEnding = arr[0];
