@@ -1,0 +1,24 @@
+People 1 and x 1
+People 2 and x 0.99726
+People 3 and x 0.991796
+People 4 and x 0.983644
+People 5 and x 0.972864
+People 6 and x 0.959538
+People 7 and x 0.943764
+People 8 and x 0.925665
+People 9 and x 0.905376
+People 10 and x 0.883052
+People 11 and x 0.858859
+People 12 and x 0.832975
+People 13 and x 0.80559
+People 14 and x 0.776897
+People 15 and x 0.747099
+People 16 and x 0.716396
+People 17 and x 0.684992
+People 18 and x 0.653089
+People 19 and x 0.620881
+People 20 and x 0.588562
+People 21 and x 0.556312
+People 22 and x 0.524305
+People 23 and x 0.492703
+23
