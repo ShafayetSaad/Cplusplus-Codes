@@ -13,26 +13,26 @@ int main(){
 #endif
 	
 	float x = 1.0;
-	// x denotes the prob of 2 people have same birthday
-	int people = 0;
+	// x denotes the probability of 2 people have same birthday
+	int count = 0;
 	float num = 365;
-	float denom = 365;
+	float denominator = 365;
 	
 	float probability;
 	cin >> probability;
 
-	if(p==1.0){
+	if(probability==1.0){
 		cout << 366 << endl;
 		return 0;
 	}
 
 	while(x > (1-probability)){
 		// x is less than the threshold
-		x = x*(num/denom);
+		x = x*(num/denominator);
 		num--;
-		people++;
-		cout << "People " << people << " and x " << x << endl;
+		count++;
+		// cout << "People " << count << " and x " << x << endl;
 	}
-	cout << people << endl;
+	cout << count << endl;
 	return 0;
 }	
