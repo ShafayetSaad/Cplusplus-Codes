@@ -13,6 +13,9 @@ Matrix Exponentiation -> O(K^3(log(n)))
 
 steps:
 1. Find the value of k
+2. Find out first k terms
+3. Find T (KxK) Transformation Matrix
+Please complete video.
 */
 #include <bits/stdc++.h>
 using namespace std;

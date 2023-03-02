@@ -6,6 +6,7 @@ pow(a, n)
 a^n => a.(a^(n/2))^2 if n is odd
 	=> (a^(n/2))^2 if n is even
 O(log(n))
+
 */
 #include <bits/stdc++.h>
 using namespace std;
