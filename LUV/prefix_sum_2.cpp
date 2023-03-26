@@ -47,7 +47,7 @@ int main(){
 		for(int j=1;j<=n;j++){
 			int x;
 			cin >> x;
-			ar[i][j] = x + ar[i-1][j] + ar[i][j-1] - ar[i-1][j-1];
+			ar[i][j] = x + ar[i-1][j]	 + ar[i][j-1] - ar[i-1][j-1];
 		}
 	}
 	
@@ -61,3 +61,6 @@ int main(){
 	// Time complexity O(N^2) + O(Q) = 10^6
 	return 0;
 }	
+
+
+

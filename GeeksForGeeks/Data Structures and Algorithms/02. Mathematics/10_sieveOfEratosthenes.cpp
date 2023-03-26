@@ -45,35 +45,35 @@ void printPrimes(int n){
 // 	}
 // }
 // Simple optimization in Sieve
-// void sieve(int n){
-// 	vector<bool> Prime(n+1, true);
-// 	for(int i=2; i*i<=n; i++){
-// 		if(Prime[i]){
-// 			// Replaced 2*i with i*i
-// 			for(int j=i*i; j<=n; j += i){
-// 				Prime[j] = false;
-// 			}
-// 		}
-// 	}
-// 	for(int i=2; i<=n; i++){
-// 		if(Prime[i]){
-// 			cout << i << " ";
-// 		}
-// 	}
-// }
-// Final Optimized way
-// Time Complexity is big O(nloglog(n))
 void sieve(int n){
-	vector<bool> prime(n+1, true);
-	for(int i=2; i<=n; i++){ 
-		if(prime[i]){                                                                                
-			cout << i << " ";
-			for(int j=i*i; j<=n; j+=i){
-				prime[j] = false;
+	vector<bool> Prime(n+1, true);
+	for(int i=2; i*i<=n; i++){
+		if(Prime[i]){
+			// Replaced 2*i with i*i
+			for(int j=i*i; j<=n; j += i){
+				Prime[j] = false;
 			}
 		}
 	}
+	for(int i=2; i<=n; i++){
+		if(Prime[i]){
+			cout << i << " ";
+		}
+	}
 }
+// Optimized way to print prime numbers
+// Time Complexity is big O(nloglog(n))
+// void sieve(int n){
+// 	vector<bool> prime(n+1, true);
+// 	for(int i=2; i<=n; i++){ 
+// 		if(prime[i]){                                                                                
+// 			cout << i << " ";
+// 			for(int j=i*i; j<=n; j+=i){
+// 				prime[j] = false;
+// 			}
+// 		}
+// 	}
+// }
 
 int main(){
 #ifndef ONLINE_JUDGE
