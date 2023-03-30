@@ -58,7 +58,7 @@ int main(){
 #endif
 
 	int arr[] = {1, 10, 10, 10, 20, 20, 40};
-	int x = 20;
+	int x = 10;
 	cout << firstBinarySearch(arr, 7, x, 0, 6) << endl;
 	cout << _firstBinarySearch(arr, 7, x) << endl;
 

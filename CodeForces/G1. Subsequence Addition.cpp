@@ -27,27 +27,13 @@ int main(){
 
 		bool ans = true;
 
-		ll i, k, j, sum;
-		for(i=1; i<n; i++){
-			j=0, k=0;
-			sum = 0;
-			bool flag = false;
-			while(k<i){
-				sum += vr[k];
-				while(sum > vr[i]){
-					sum -= vr[j];
-					j++;
-				}
-
-				if(sum==vr[i]){
-					flag = true;
-					break;
-				}
-				k++;
+		ll sum=vr[0];
+		for(ll i=1; i<n; i++){
+			if(sum < vr[i]){
+				ans = false;
+				break;
 			}
-			if(!flag){
-				ans = false; break;
-			}
+			sum += vr[i];
 		}
 
 		if(ans) cout << "YES\n";
