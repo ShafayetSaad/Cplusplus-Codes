@@ -16,7 +16,6 @@ void increment(vector<int> &a){
     if(i==n) a.push_back(1);
     else a[i]++;
 }
-
 void multiply(vector<int> &a, vector<int> &b){
     int n=a.size(), m=b.size();
     vector<int> temp(m+n, 0);
@@ -36,10 +35,36 @@ void multiply(vector<int> &a, vector<int> &b){
     }
 }
 
-void division(vector<int> &a, vector<int> &b){
-	
+void minus_(vector<int> &a, vector<int> &b){
+    int len = b.size();
+    int carry = 0;
+    for(int i=0; i<len; i++){
+        if((a[i] - b[i] - carry) < 0){
+            a[i] = (10 + a[i] - b[i] - carry);
+            carry = 1;
+        }
+        else{
+            a[i] = (a[i] - b[i] - carry);
+            carry = 0;
+        }
+    }
+    if(carry){
+        a[len] = a[len] - carry;
+    }
+    if(a[len] == 0) a.pop_back();
 }
 
+void addition(vector<int> &a, vector<int> &b){
+    int len = b.size();
+    int carry = 0;
+    for(int i=0; i<len; i++){
+        if((a[i]+b[i]+carry) > 9){
+            a[i] = (a[i]+b[i]+carry)%10;
+            carry = (a[i]+b[i]+carry)/10;
+        }
+    }
+    if(carry) a.push_back(carry);
+}
 
 vector<int> factorial(int n){
         // code here
@@ -76,5 +101,10 @@ int main(){
 	for(int i=num.size()-1; i>=0; i--){
 		cout << num[i];
 	}cout << endl;
+    vector<int> temp = {1, 9};
+    minus_(num, temp);
+    for(int i=num.size()-1; i>=0; i--){
+        cout << num[i];
+    }cout << endl;
 	return 0;
 }	

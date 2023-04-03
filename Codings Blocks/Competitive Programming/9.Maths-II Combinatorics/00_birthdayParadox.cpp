@@ -31,7 +31,7 @@ int main(){
 		x = x*(num/denominator);
 		num--;
 		count++;
-		// cout << "People " << count << " and x " << x << endl;
+		cout << "People " << count << " and x " << x << endl;
 	}
 	cout << count << endl;
 	return 0;

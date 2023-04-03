@@ -10,7 +10,7 @@ using namespace std;
 // 	return res;
 // }
 
-// Iterative Solution
+// Recursive Solution
 int factorial(int n){
 	if(n==0){
 		return 1;

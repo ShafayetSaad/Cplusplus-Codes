@@ -42,7 +42,7 @@ using namespace std;
 
 // Euclidean Algorithm
 // Let a>b
-// gcd(a, b) == gcd(a-b, b)
+""gcd(a, b) == gcd(a-b, b)""
 // int gcd(int a,int b){
 // 	while(a != b){
 // 		if(a>b){
